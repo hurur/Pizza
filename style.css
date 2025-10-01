@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+}
+
+hr {
+    width: 50%;
+}
+
+h3 {
+    color: blue;
+}
+
+.center {
+    text-align: center;
+}
+
+#background {
+    background-image: url("tile_image.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 24%;
+    background-repeat: repeat;
+    background-size: min(50vh,50vw);
+    z-index: -1;
+}
+
+td,
+th,
+table {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+body {
+    
+   width: 100%;
+   height: 100%;
+    margin: 0;
+
+}
